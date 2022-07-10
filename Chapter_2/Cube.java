@@ -10,6 +10,7 @@ public class Cube {
         //кусок кода с JavaRush с потоками, принимает массив интов, возвращает Лист четных чисел;
         int[] array = {1, 2, 3};
         System.out.println(asd(array));
+        System.out.println("здрасьте");
     }
 
     public static List<Integer> asd(int[] array) {
@@ -17,6 +18,5 @@ public class Cube {
                 .filter(num -> num % 2 == 0)
                 .boxed()
                 .collect(Collectors.toList());
-
     }
 }
