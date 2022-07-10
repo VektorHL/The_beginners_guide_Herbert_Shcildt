@@ -11,6 +11,7 @@ public class Cube {
         int[] array = {1, 2, 3};
         System.out.println(asd(array));
         System.out.println("здрасьте");
+        System.out.println("тоже тест, но уже с винды");
     }
 
     public static List<Integer> asd(int[] array) {
